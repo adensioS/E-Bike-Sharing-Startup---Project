@@ -8,25 +8,25 @@ The goal is to uncover **usage patterns, demand peaks, station imbalances, user 
 
 The analysis combines business insight with practical SQL techniques commonly used by data analysts in real-world environments.
 
-🧠 **Business Objectives**
+**Business Objectives**
 - Understand user behavior across different membership levels
 - Identify peak demand hours and ride patterns
 - Detect station-level inventory imbalances
 - Evaluate ride quality and data integrity
 - Track growth and user acquisition trends
 
- 🗂️ **Dataset Description**
+ **Dataset Description**
 The analysis is based on three core tables stored in Google BigQuery:
 - **Rides**: Individual ride records including time, distance, and stations,
 - **Users**: User profiles and membership levels,
 - **Stations**: Station locations;
 
- 📊 **Dataset Scale**
+ **Dataset Scale**
 - **15.000** total rides
 - **25** stations
 - **1.000** registered users
 
-🛠️ **Tools & Technologies**
+**Tools & Technologies**
 - Google BigQuery (SQL)
 - CTEs (Common Table Expressions)
 - Time Series Analysis
